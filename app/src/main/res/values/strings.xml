@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MatchLayout</string>
+    <string name="display_match">Match</string>
+    <string name="display_username">Username</string>
+    <string name="display_age_location">35•Brooklyn, NY</string>
+    <string name="display_match_percentage">35%</string>
+</resources>
