@@ -43,7 +43,7 @@ public class MatchViewModel extends Observable {
         mProgress = new ObservableInt(View.VISIBLE);
         mRecycler = new ObservableInt(View.GONE);
 
-        fetchMatchList();
+        //fetchMatchList();
 
     }
 

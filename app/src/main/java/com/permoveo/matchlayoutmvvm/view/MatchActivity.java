@@ -30,6 +30,13 @@ public class MatchActivity extends AppCompatActivity implements Observer {
         setupObserver(mMatchViewModel);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        mMatchViewModel.fetchMatchList();
+    }
+
     private void initDataBinding(){
         mMatchActivityBinding = DataBindingUtil.setContentView(this, R.layout.match_activity);
         mMatchViewModel = new MatchViewModel(this);
